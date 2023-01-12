@@ -1,0 +1,26 @@
+{
+  "name": "com.dk",
+  "version": "1.0.0",
+  "description": "This is CRUD Operation using Node.js And MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dharmedra-Yadav/CRUD-OPERATION-WITH-MONGODB.git"
+  },
+  "author": "Mr Dk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dharmedra-Yadav/CRUD-OPERATION-WITH-MONGODB/issues"
+  },
+  "homepage": "https://github.com/Dharmedra-Yadav/CRUD-OPERATION-WITH-MONGODB#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
+  }
+}
